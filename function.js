@@ -13,7 +13,7 @@ function squareroot(number){
         return -1
     }
 }
-
+// print the next 10 numbers from the given number
 console.log(squareroot(4))
 console.log(squareroot(3))
 
