@@ -25,4 +25,3 @@ if (x == z){
         console.log(false)
     
 }
-        
