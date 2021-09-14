@@ -1,4 +1,4 @@
-  //function squareroot(number) {
+  //function squareroot of a number 
 
 function squareroot(number){
    
@@ -14,8 +14,22 @@ function squareroot(number){
     }
 }
 
+// squareroot 2nd method
+function sqrtroot(number){
+   
+    for(let i = 0; i<= number; i++)
+    {
+        if ( i * i == number){
+        return i
+    }
+}
+        return -1
+ 
+}
+
 console.log(squareroot(4))
 console.log(squareroot(3))
+console.log(sqrtroot(144))
 
 // print the next 10 numbers from the given number
 function givennum(number){

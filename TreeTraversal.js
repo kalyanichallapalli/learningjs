@@ -59,5 +59,5 @@ function createTree() {
     } 
 }    */
  
- }
+
 traverseTree(createTree());
