@@ -1,5 +1,4 @@
   //function squareroot of a number 
-
 function squareroot(number){
    
     let x= Math.sqrt(number);
