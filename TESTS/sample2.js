@@ -5,7 +5,7 @@ o/p  -  “h”- 1
     “l”-2
     “o”-1 */
 
-let str = 'hello';
+/* let str = 'hello';
 let count = 1;
 let matchcount=1;
 for(let i=0;i<=str.length-1;i++)
@@ -46,4 +46,17 @@ let countplus = 0;
 console.log(String[i], countplus);
 }
 
-console.log(countstring('hello'))
+console.log(countstring('hello')) */
+
+function fun(str){
+    str = str.toLowerCase();
+    var myObject = {};
+    for (let i = 0; i < str.length; i++) {
+	let curr = str[i];
+    	myObject[curr] = myObject[curr] ? myObject[curr] + 1 : myObject[curr] = 1;
+    }
+    for ( let i in myObject) {
+console.log(`${i}  ${myObject[i]}`);
+    }
+}
+  fun("hello");
