@@ -27,18 +27,3 @@ if (x == z){
 }
 console.log('checkPalindrome inputString');
 
-function palindrome(str) {
-    for( var i = str.length; i >= 0; i-- )
-    {
-        if( str[i] = str.charAt(str.length)-1)
-        {
-            return true;
-          //  console.log('the word is palindrome.');
-        }else{
-            console.log('the word is not palindrome!');
-        }
-       
-    }   
-
-  }
-  palindrome("ABCDCBA");
