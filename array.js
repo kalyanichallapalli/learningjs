@@ -1,4 +1,6 @@
 
+ // in given array even  and odd numbers seperation 
+ 
  let arr = [3,6,9,10,16,15,13,1,200,18];
  
 for (let i = 0; i < arr.length; i++) {
@@ -15,5 +17,15 @@ for (let i = 0; i < arr.length; i++) {
     
         }
       }
+
+
+ const cars = ["bmw","tesla","volvo"];
+
+ text = "";
+
+ text += "TOTAL CARS BRANDS ARE:" + cars;
+
+ console.log(text);
+
 
      

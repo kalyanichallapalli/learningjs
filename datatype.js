@@ -13,17 +13,10 @@ console.log(x); // last assigened a string so its displaying a string
     x = 5;
 let y = 5;
 let z = 6;
-if (x == y);{
+if (x == y);{ //JavaScript Booleans
     console.log(true)     // Returns true
 }
 console.log(x)
 console.log(z)
 
-if (x == z){
-    console.log(true)     // Returns false
-} else{
-        console.log(false)
-    
-}
-console.log('checkPalindrome inputString');
 
