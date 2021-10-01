@@ -57,12 +57,13 @@ console.log(person1.firstName)
 //The length property of an array returns the length of an array (the number of array elements).
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits.length);   // Returns 4
+console.log(fruits.length);   // Returns 4 checking length property 
 console.log(fruits[0]);
 console.log(fruits[fruits.length - 1])
 //Adding Array Elements
 console.log(fruits.push("Lemon"));  // Adds a new element (Lemon) to fruits
 console.log(fruits)
+
 console.log(typeof fruits);
 console.log(Array.isArray(fruits)) 
 console.log(fruits instanceof Array) 
