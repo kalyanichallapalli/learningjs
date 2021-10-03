@@ -12,8 +12,14 @@ console.log('SUB',z);
 z = x * y;        // assign the value 15 to z (5 * 2)
 console.log('MUL',z);
 
-z = x / y;        // assign the value 2.5 to z (5 / 2)
+g = x / y;        // assign the value 2.5 to z (5 / 2)
+z =  Math.floor(x / y);  
+h =  Math.ceil(x / y);  
+console.log('--------------------------------');
+console.log('DIV',g);
 console.log('DIV',z);
+console.log('DIV',h);
+console.log('--------------------------------');
 
 z = x %= y;        // assign the value 1 to z (5 %= 2)
 console.log('MOD',z);
