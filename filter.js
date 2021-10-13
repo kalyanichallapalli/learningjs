@@ -9,6 +9,11 @@
 
     //sort arry based on length of the string
 
-    const  arr = ['apples', 'ball', 'cats', 'doggis', 'cell'];
+    const  arr = ['aa', 'bbb', 'cccccc', 'dddddd', 'eeeeeee'];
+    
     const asc = arr.sort((a, b) => a.length - b.length);
-      console.log(asc);
+    console.log(asc);
+
+    const dsc = arr.sort((a, b) => b.length - a.length);
+      
+      console.log(dsc);
